@@ -14,10 +14,11 @@ Contexto:
     E seleciono entrar
     Então visualizo a página inicial
     Quando seleciono Contas
-    E seleciono Adicionar
+    #E seleciono Adicionar
     
 Esquema do Cenario: Validar cadastro da conta "<conta>" com a mensagem esperada "<mensagem>"
-	Quando informo a conta "<conta>"
+	Quando seleciono Adicionar
+	E informo a conta "<conta>"
 	E seleciono Salvar
 	Entao recebo a mensagem "<mensagem>"
 	
@@ -27,4 +28,15 @@ Exemplos:
 	|                |     Informe o nome da conta     |
 	|Conta mesmo nome|Já existe uma conta com esse nome|
 	
+Esquema do Cenario:  Validar edicao da conta "<conta>" com a mensagem esperada "<mensagem>"
+	Quando seleciono Listar
+	E clico em editar
+	E informo o novo nome "<nome>" da conta
+	E clico em salvar
+	Entao recebo a mensagem "<mensagem>"
 
+Exemplos:
+	|			nome			|					mensagem				 |
+	|Conta alterada	|Conta alterada com sucesso|
+	|               |Informe o nome da conta   |
+	

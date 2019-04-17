@@ -891,11 +891,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("file:src/test/resources/features/cadastro_de_contas.feature");
+formatter.uri("file:src/test/resources/features/gerenciamento_de_contas.feature");
 formatter.feature({
   "name": "Cadastro de contas",
   "description": "  Como um usuário \n  Gostaria de cadastrar contas\n  Para que eu possa distribuir meu dinheiro de uma forma mais organizada",
-  "keyword": "Funcionalidade"
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "Validar cadastro da conta \"\u003cconta\u003e\" com a mensagem esperada \"\u003cmensagem\u003e\"",
@@ -903,8 +908,12 @@ formatter.scenarioOutline({
   "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "name": "informo a conta \"\u003cconta\u003e\"",
+  "name": "seleciono Adicionar",
   "keyword": "Quando "
+});
+formatter.step({
+  "name": "informo a conta \"\u003cconta\u003e\"",
+  "keyword": "E "
 });
 formatter.step({
   "name": "seleciono Salvar",
@@ -955,7 +964,7 @@ formatter.step({
   "keyword": "Dado "
 });
 formatter.match({
-  "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+  "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
 });
 formatter.result({
   "status": "passed"
@@ -965,7 +974,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoOUsuário(String)"
+  "location": "GerenciamentoDeContas.informoOUsuário(String)"
 });
 formatter.result({
   "status": "passed"
@@ -975,7 +984,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.aSenha(String)"
+  "location": "GerenciamentoDeContas.aSenha(String)"
 });
 formatter.result({
   "status": "passed"
@@ -985,7 +994,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoEntrar()"
+  "location": "GerenciamentoDeContas.selecionoEntrar()"
 });
 formatter.result({
   "status": "passed"
@@ -995,7 +1004,7 @@ formatter.step({
   "keyword": "Então "
 });
 formatter.match({
-  "location": "CadastroDeContas.visualizoAPáginaInicial()"
+  "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
 });
 formatter.result({
   "status": "passed"
@@ -1005,17 +1014,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoContas()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "CadastroDeContas.selecionoAdicionar()"
+  "location": "GerenciamentoDeContas.selecionoContas()"
 });
 formatter.result({
   "status": "passed"
@@ -1023,14 +1022,29 @@ formatter.result({
 formatter.scenario({
   "name": "Validar cadastro da conta \"Conta de Teste\" com a mensagem esperada \"Conta adicionada com sucesso!\"",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
 });
 formatter.step({
-  "name": "informo a conta \"Conta de Teste\"",
+  "name": "seleciono Adicionar",
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoAConta(String)"
+  "location": "GerenciamentoDeContas.selecionoAdicionar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo a conta \"Conta de Teste\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoAConta(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1040,7 +1054,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoSalvar()"
+  "location": "GerenciamentoDeContas.selecionoSalvar()"
 });
 formatter.result({
   "status": "passed"
@@ -1050,7 +1064,7 @@ formatter.step({
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "CadastroDeContas.receboAMensagem(String)"
+  "location": "GerenciamentoDeContas.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1071,7 +1085,7 @@ formatter.step({
   "keyword": "Dado "
 });
 formatter.match({
-  "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+  "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
 });
 formatter.result({
   "status": "passed"
@@ -1081,7 +1095,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoOUsuário(String)"
+  "location": "GerenciamentoDeContas.informoOUsuário(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1091,7 +1105,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.aSenha(String)"
+  "location": "GerenciamentoDeContas.aSenha(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1101,7 +1115,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoEntrar()"
+  "location": "GerenciamentoDeContas.selecionoEntrar()"
 });
 formatter.result({
   "status": "passed"
@@ -1111,7 +1125,7 @@ formatter.step({
   "keyword": "Então "
 });
 formatter.match({
-  "location": "CadastroDeContas.visualizoAPáginaInicial()"
+  "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
 });
 formatter.result({
   "status": "passed"
@@ -1121,17 +1135,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoContas()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "CadastroDeContas.selecionoAdicionar()"
+  "location": "GerenciamentoDeContas.selecionoContas()"
 });
 formatter.result({
   "status": "passed"
@@ -1139,14 +1143,29 @@ formatter.result({
 formatter.scenario({
   "name": "Validar cadastro da conta \"\" com a mensagem esperada \"Informe o nome da conta\"",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
 });
 formatter.step({
-  "name": "informo a conta \"\"",
+  "name": "seleciono Adicionar",
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoAConta(String)"
+  "location": "GerenciamentoDeContas.selecionoAdicionar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo a conta \"\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoAConta(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1156,7 +1175,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoSalvar()"
+  "location": "GerenciamentoDeContas.selecionoSalvar()"
 });
 formatter.result({
   "status": "passed"
@@ -1166,7 +1185,7 @@ formatter.step({
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "CadastroDeContas.receboAMensagem(String)"
+  "location": "GerenciamentoDeContas.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1187,7 +1206,7 @@ formatter.step({
   "keyword": "Dado "
 });
 formatter.match({
-  "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+  "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
 });
 formatter.result({
   "status": "passed"
@@ -1197,7 +1216,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoOUsuário(String)"
+  "location": "GerenciamentoDeContas.informoOUsuário(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1207,7 +1226,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.aSenha(String)"
+  "location": "GerenciamentoDeContas.aSenha(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1217,7 +1236,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoEntrar()"
+  "location": "GerenciamentoDeContas.selecionoEntrar()"
 });
 formatter.result({
   "status": "passed"
@@ -1227,7 +1246,7 @@ formatter.step({
   "keyword": "Então "
 });
 formatter.match({
-  "location": "CadastroDeContas.visualizoAPáginaInicial()"
+  "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
 });
 formatter.result({
   "status": "passed"
@@ -1237,17 +1256,7 @@ formatter.step({
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoContas()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "CadastroDeContas.selecionoAdicionar()"
+  "location": "GerenciamentoDeContas.selecionoContas()"
 });
 formatter.result({
   "status": "passed"
@@ -1255,14 +1264,29 @@ formatter.result({
 formatter.scenario({
   "name": "Validar cadastro da conta \"Conta mesmo nome\" com a mensagem esperada \"Já existe uma conta com esse nome\"",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
 });
 formatter.step({
-  "name": "informo a conta \"Conta mesmo nome\"",
+  "name": "seleciono Adicionar",
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "CadastroDeContas.informoAConta(String)"
+  "location": "GerenciamentoDeContas.selecionoAdicionar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo a conta \"Conta mesmo nome\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoAConta(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1272,7 +1296,7 @@ formatter.step({
   "keyword": "E "
 });
 formatter.match({
-  "location": "CadastroDeContas.selecionoSalvar()"
+  "location": "GerenciamentoDeContas.selecionoSalvar()"
 });
 formatter.result({
   "status": "passed"
@@ -1282,7 +1306,319 @@ formatter.step({
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "CadastroDeContas.receboAMensagem(String)"
+  "location": "GerenciamentoDeContas.receboAMensagem(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Validar edicao da conta \"\u003cconta\u003e\" com a mensagem esperada \"\u003cmensagem\u003e\"",
+  "description": "",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "name": "seleciono Listar",
+  "keyword": "Quando "
+});
+formatter.step({
+  "name": "clico em editar",
+  "keyword": "E "
+});
+formatter.step({
+  "name": "informo o novo nome \"\u003cnome\u003e\" da conta",
+  "keyword": "E "
+});
+formatter.step({
+  "name": "clico em salvar",
+  "keyword": "E "
+});
+formatter.step({
+  "name": "recebo a mensagem \"\u003cmensagem\u003e\"",
+  "keyword": "Entao "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Exemplos",
+  "rows": [
+    {
+      "cells": [
+        "nome",
+        "mensagem"
+      ]
+    },
+    {
+      "cells": [
+        "Conta alterada",
+        "Conta alterada com sucesso"
+      ]
+    },
+    {
+      "cells": [
+        "",
+        "Informe o nome da conta"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Contexto"
+});
+formatter.step({
+  "name": "que estou acessando a aplicação",
+  "keyword": "Dado "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo o usuário \"adrianochaves93@gmail.com\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoOUsuário(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a senha \"18021995\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.aSenha(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "seleciono entrar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoEntrar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "visualizo a página inicial",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "seleciono Contas",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoContas()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validar edicao da conta \"\u003cconta\u003e\" com a mensagem esperada \"Conta alterada com sucesso\"",
+  "description": "",
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
+});
+formatter.step({
+  "name": "seleciono Listar",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoListar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clico em editar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.clicoEmEditar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo o novo nome \"Conta alterada\" da conta",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoONovoNomeDaConta(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clico em salvar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.clicoEmSalvar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "recebo a mensagem \"Conta alterada com sucesso\"",
+  "keyword": "Entao "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.receboAMensagem(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Contexto"
+});
+formatter.step({
+  "name": "que estou acessando a aplicação",
+  "keyword": "Dado "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo o usuário \"adrianochaves93@gmail.com\"",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoOUsuário(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a senha \"18021995\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.aSenha(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "seleciono entrar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoEntrar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "visualizo a página inicial",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "seleciono Contas",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoContas()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validar edicao da conta \"\u003cconta\u003e\" com a mensagem esperada \"Informe o nome da conta\"",
+  "description": "",
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcional"
+    }
+  ]
+});
+formatter.step({
+  "name": "seleciono Listar",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.selecionoListar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clico em editar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.clicoEmEditar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "informo o novo nome \"\" da conta",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.informoONovoNomeDaConta(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clico em salvar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.clicoEmSalvar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "recebo a mensagem \"Informe o nome da conta\"",
+  "keyword": "Entao "
+});
+formatter.match({
+  "location": "GerenciamentoDeContas.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"

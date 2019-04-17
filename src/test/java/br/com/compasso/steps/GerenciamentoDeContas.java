@@ -18,7 +18,7 @@ import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 
-public class CadastroDeContas {
+public class GerenciamentoDeContas {
 	
 	//private WebDriver driver;
 	WebDriver driver = new ChromeDriver();
@@ -71,6 +71,27 @@ public class CadastroDeContas {
 	@Entao("recebo a mensagem {string}")
 	public void receboAMensagem(String string) {
 	    driver.getPageSource().contains(string);
+	}
+///////////////////////////////////////////////////////////	
+	
+	@Quando("seleciono Listar")
+	public void selecionoListar() {
+		driver.findElement(By.linkText("Listar")).click();
+	}
+
+	@Quando("clico em editar")
+	public void clicoEmEditar() {
+		driver.findElement(By.cssSelector("#tabelaContas > tbody > tr:nth-child(1) > td:nth-child(2) > a:nth-child(1) > span")).click();
+	}
+
+	@Quando("informo o novo nome {string} da conta")
+	public void informoONovoNomeDaConta(String string) {
+		driver.findElement(By.id("nome")).sendKeys(string);
+	}
+
+	@Quando("clico em salvar")
+	public void clicoEmSalvar() {
+		driver.findElement(By.cssSelector("body > div.col-lg-10 > form > div.btn-group > button")).click();
 	}
 	
 	@After(order = 1, value= {"~@unitario"})//o value especifica em qual tag o after NÃO vai rodar

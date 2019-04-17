@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2019-04-17T14:03:19.750Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 12,
         "name": "Deve executar especificação",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 413945,
+              "duration": 411892,
               "status": "passed"
             },
             "line": 13,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 24973,
+              "duration": 22579,
               "status": "passed"
             },
             "line": 14,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 7526,
+              "duration": 8210,
               "status": "passed"
             },
             "line": 15,
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.753Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 17,
         "name": "Deve incrementar contador",
         "description": "",
@@ -68,7 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146420,
+              "duration": 154289,
               "status": "passed"
             },
             "line": 18,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 16763,
+              "duration": 17105,
               "status": "passed"
             },
             "line": 19,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 1054362,
+              "duration": 1108072,
               "status": "passed"
             },
             "line": 20,
@@ -128,7 +128,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.755Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 22,
         "name": "Deve calcular atraso na entrega",
         "description": "",
@@ -138,7 +138,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75947,
+              "duration": 50631,
               "status": "passed"
             },
             "line": 23,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 24289,
+              "duration": 20184,
               "status": "passed"
             },
             "line": 24,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 23263,
+              "duration": 21211,
               "status": "passed"
             },
             "line": 25,
@@ -222,7 +222,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.756Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 27,
         "name": "Deve calcular atraso na entrega da China",
         "description": "",
@@ -232,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 50974,
+              "duration": 28395,
               "status": "passed"
             },
             "line": 28,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 31473,
+              "duration": 17105,
               "status": "passed"
             },
             "line": 29,
@@ -284,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 29079,
+              "duration": 16763,
               "status": "passed"
             },
             "line": 30,
@@ -316,7 +316,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.756Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 33,
         "name": "Deve criar steps genéricos para estes passos",
         "description": "",
@@ -326,7 +326,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31816,
+              "duration": 23263,
               "status": "passed"
             },
             "line": 34,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 213815,
+              "duration": 200473,
               "status": "passed"
             },
             "line": 35,
@@ -362,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 54053,
+              "duration": 45158,
               "status": "passed"
             },
             "line": 36,
@@ -380,7 +380,7 @@
           },
           {
             "result": {
-              "duration": 17789,
+              "duration": 18815,
               "status": "passed"
             },
             "line": 37,
@@ -402,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 6842,
+              "duration": 7184,
               "status": "passed"
             },
             "line": 38,
@@ -414,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 5816,
+              "duration": 6158,
               "status": "passed"
             },
             "line": 39,
@@ -432,7 +432,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.757Z",
+        "start_timestamp": "2019-04-17T18:56:58.486Z",
         "line": 41,
         "name": "Deve reaproveitar os steps \"Dado\" do cenário anterior",
         "description": "",
@@ -442,7 +442,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23263,
+              "duration": 75947,
               "status": "passed"
             },
             "line": 42,
@@ -460,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 11974,
+              "duration": 18815,
               "status": "passed"
             },
             "line": 43,
@@ -478,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 20868,
+              "duration": 45842,
               "status": "passed"
             },
             "line": 44,
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 23263,
+              "duration": 37289,
               "status": "passed"
             },
             "line": 45,
@@ -514,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 14711,
+              "duration": 22237,
               "status": "passed"
             },
             "line": 46,
@@ -542,7 +542,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.757Z",
+        "start_timestamp": "2019-04-17T18:56:58.502Z",
         "line": 48,
         "name": "Deve negar todos os steps \"Dado\" dos cenários anteriores",
         "description": "",
@@ -552,7 +552,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23947,
+              "duration": 56105,
               "status": "passed"
             },
             "line": 49,
@@ -570,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 13000,
+              "duration": 21894,
               "status": "passed"
             },
             "line": 50,
@@ -588,7 +588,7 @@
           },
           {
             "result": {
-              "duration": 49605,
+              "duration": 80052,
               "status": "passed"
             },
             "line": 51,
@@ -610,7 +610,7 @@
           },
           {
             "result": {
-              "duration": 17447,
+              "duration": 38315,
               "status": "passed"
             },
             "line": 52,
@@ -628,7 +628,7 @@
           },
           {
             "result": {
-              "duration": 14710,
+              "duration": 22579,
               "status": "passed"
             },
             "line": 53,
@@ -650,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 12658,
+              "duration": 19500,
               "status": "passed"
             },
             "line": 54,
@@ -678,7 +678,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.758Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 69,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -688,7 +688,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22578,
+              "duration": 75946,
               "status": "passed"
             },
             "line": 60,
@@ -706,7 +706,7 @@
           },
           {
             "result": {
-              "duration": 7527,
+              "duration": 18132,
               "status": "passed"
             },
             "line": 61,
@@ -718,7 +718,7 @@
           },
           {
             "result": {
-              "duration": 6158,
+              "duration": 12316,
               "status": "passed"
             },
             "line": 62,
@@ -730,7 +730,7 @@
           },
           {
             "result": {
-              "duration": 10947,
+              "duration": 25315,
               "status": "passed"
             },
             "line": 63,
@@ -748,7 +748,7 @@
           },
           {
             "result": {
-              "duration": 9921,
+              "duration": 18473,
               "status": "passed"
             },
             "line": 64,
@@ -766,7 +766,7 @@
           },
           {
             "result": {
-              "duration": 9921,
+              "duration": 32158,
               "status": "passed"
             },
             "line": 65,
@@ -790,7 +790,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.758Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 70,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -800,7 +800,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20184,
+              "duration": 36947,
               "status": "passed"
             },
             "line": 60,
@@ -818,7 +818,7 @@
           },
           {
             "result": {
-              "duration": 7527,
+              "duration": 12316,
               "status": "passed"
             },
             "line": 61,
@@ -830,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 5131,
+              "duration": 9921,
               "status": "passed"
             },
             "line": 62,
@@ -842,7 +842,7 @@
           },
           {
             "result": {
-              "duration": 9921,
+              "duration": 41736,
               "status": "passed"
             },
             "line": 63,
@@ -860,7 +860,7 @@
           },
           {
             "result": {
-              "duration": 9237,
+              "duration": 18131,
               "status": "passed"
             },
             "line": 64,
@@ -878,7 +878,7 @@
           },
           {
             "result": {
-              "duration": 16079,
+              "duration": 16763,
               "status": "passed"
             },
             "line": 65,
@@ -902,7 +902,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.758Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 71,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -912,7 +912,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21211,
+              "duration": 40710,
               "status": "passed"
             },
             "line": 60,
@@ -930,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 6157,
+              "duration": 18816,
               "status": "passed"
             },
             "line": 61,
@@ -942,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 5131,
+              "duration": 17105,
               "status": "passed"
             },
             "line": 62,
@@ -954,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 9578,
+              "duration": 25316,
               "status": "passed"
             },
             "line": 63,
@@ -972,7 +972,7 @@
           },
           {
             "result": {
-              "duration": 9237,
+              "duration": 37289,
               "status": "passed"
             },
             "line": 64,
@@ -990,7 +990,7 @@
           },
           {
             "result": {
-              "duration": 14368,
+              "duration": 23947,
               "status": "passed"
             },
             "line": 65,
@@ -1014,7 +1014,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.759Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 72,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -1024,7 +1024,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20184,
+              "duration": 47552,
               "status": "passed"
             },
             "line": 60,
@@ -1042,7 +1042,7 @@
           },
           {
             "result": {
-              "duration": 7184,
+              "duration": 13684,
               "status": "passed"
             },
             "line": 61,
@@ -1054,7 +1054,7 @@
           },
           {
             "result": {
-              "duration": 6842,
+              "duration": 12658,
               "status": "passed"
             },
             "line": 62,
@@ -1066,7 +1066,7 @@
           },
           {
             "result": {
-              "duration": 10263,
+              "duration": 19158,
               "status": "passed"
             },
             "line": 63,
@@ -1084,7 +1084,7 @@
           },
           {
             "result": {
-              "duration": 10606,
+              "duration": 18131,
               "status": "passed"
             },
             "line": 64,
@@ -1102,7 +1102,7 @@
           },
           {
             "result": {
-              "duration": 9579,
+              "duration": 15736,
               "status": "passed"
             },
             "line": 65,
@@ -1126,7 +1126,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.759Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 73,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -1136,7 +1136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27368,
+              "duration": 32842,
               "status": "passed"
             },
             "line": 60,
@@ -1154,7 +1154,7 @@
           },
           {
             "result": {
-              "duration": 6500,
+              "duration": 9921,
               "status": "passed"
             },
             "line": 61,
@@ -1166,7 +1166,7 @@
           },
           {
             "result": {
-              "duration": 4790,
+              "duration": 8211,
               "status": "passed"
             },
             "line": 62,
@@ -1178,7 +1178,7 @@
           },
           {
             "result": {
-              "duration": 9921,
+              "duration": 15736,
               "status": "passed"
             },
             "line": 63,
@@ -1196,7 +1196,7 @@
           },
           {
             "result": {
-              "duration": 9237,
+              "duration": 14711,
               "status": "passed"
             },
             "line": 64,
@@ -1214,7 +1214,7 @@
           },
           {
             "result": {
-              "duration": 8894,
+              "duration": 14368,
               "status": "passed"
             },
             "line": 65,
@@ -1238,7 +1238,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.759Z",
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
         "line": 74,
         "name": "Deve dar condiçoes conforme tipo de aluguel",
         "description": "\tDado: um flime com estoque de 2 unidades",
@@ -1248,7 +1248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20184,
+              "duration": 53026,
               "status": "passed"
             },
             "line": 60,
@@ -1266,7 +1266,7 @@
           },
           {
             "result": {
-              "duration": 6158,
+              "duration": 8895,
               "status": "passed"
             },
             "line": 61,
@@ -1278,7 +1278,7 @@
           },
           {
             "result": {
-              "duration": 4790,
+              "duration": 6842,
               "status": "passed"
             },
             "line": 62,
@@ -1290,7 +1290,7 @@
           },
           {
             "result": {
-              "duration": 10605,
+              "duration": 14710,
               "status": "passed"
             },
             "line": 63,
@@ -1308,7 +1308,7 @@
           },
           {
             "result": {
-              "duration": 11974,
+              "duration": 16420,
               "status": "passed"
             },
             "line": 64,
@@ -1326,7 +1326,7 @@
           },
           {
             "result": {
-              "duration": 8553,
+              "duration": 12316,
               "status": "passed"
             },
             "line": 65,
@@ -1367,10 +1367,10 @@
     ]
   },
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 9,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -1378,22 +1378,22 @@
         "steps": [
           {
             "result": {
-              "duration": 3854803556,
+              "duration": 3467652950,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
-              "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+              "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 125419804,
+              "duration": 105269244,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"adrianochaves93@gmail.com\"",
             "match": {
               "arguments": [
@@ -1402,16 +1402,16 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.informoOUsuário(String)"
+              "location": "GerenciamentoDeContas.informoOUsuário(String)"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 50494425,
+              "duration": 49358300,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"18021995\"",
             "match": {
               "arguments": [
@@ -1420,83 +1420,71 @@
                   "offset": 8
                 }
               ],
-              "location": "CadastroDeContas.aSenha(String)"
+              "location": "GerenciamentoDeContas.aSenha(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 768114618,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "seleciono entrar",
-            "match": {
-              "location": "CadastroDeContas.selecionoEntrar()"
-            },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 11545639,
+              "duration": 587798207,
               "status": "passed"
             },
             "line": 14,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10139937,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
-              "location": "CadastroDeContas.visualizoAPáginaInicial()"
+              "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
             },
             "keyword": "Então "
           },
           {
             "result": {
-              "duration": 60608020,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "seleciono Contas",
-            "match": {
-              "location": "CadastroDeContas.selecionoContas()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 269688806,
+              "duration": 50936764,
               "status": "passed"
             },
             "line": 16,
-            "name": "seleciono Adicionar",
+            "name": "seleciono Contas",
             "match": {
-              "location": "CadastroDeContas.selecionoAdicionar()"
+              "location": "GerenciamentoDeContas.selecionoContas()"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           }
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:19.760Z",
-        "line": 25,
+        "start_timestamp": "2019-04-17T18:56:58.503Z",
+        "line": 27,
         "name": "Validar cadastro da conta \"Conta de Teste\" com a mensagem esperada \"Conta adicionada com sucesso!\"",
         "description": "",
         "id": "cadastro-de-contas;validar-cadastro-da-conta-\"\u003cconta\u003e\"-com-a-mensagem-esperada-\"\u003cmensagem\u003e\";;2",
         "after": [
           {
             "result": {
-              "duration": 331449371,
+              "duration": 316151203,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.screenshot(Scenario)"
+              "location": "GerenciamentoDeContas.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 594696717,
+              "duration": 700655982,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.fecharBrouwser()"
+              "location": "GerenciamentoDeContas.fecharBrouwser()"
             }
           }
         ],
@@ -1505,10 +1493,22 @@
         "steps": [
           {
             "result": {
-              "duration": 71683952,
+              "duration": 286526096,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 61765355,
+              "status": "passed"
+            },
+            "line": 21,
             "name": "informo a conta \"Conta de Teste\"",
             "match": {
               "arguments": [
@@ -1517,28 +1517,28 @@
                   "offset": 16
                 }
               ],
-              "location": "CadastroDeContas.informoAConta(String)"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 611876453,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "seleciono Salvar",
-            "match": {
-              "location": "CadastroDeContas.selecionoSalvar()"
+              "location": "GerenciamentoDeContas.informoAConta(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 4180843,
+              "duration": 366597733,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3931108,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
             "match": {
               "arguments": [
@@ -1547,14 +1547,19 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.receboAMensagem(String)"
+              "location": "GerenciamentoDeContas.receboAMensagem(String)"
             },
             "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcional"
           }
         ]
       },
       {
-        "line": 9,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -1562,22 +1567,22 @@
         "steps": [
           {
             "result": {
-              "duration": 3879134958,
+              "duration": 3423442960,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
-              "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+              "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 101446925,
+              "duration": 117161092,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"adrianochaves93@gmail.com\"",
             "match": {
               "arguments": [
@@ -1586,16 +1591,16 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.informoOUsuário(String)"
+              "location": "GerenciamentoDeContas.informoOUsuário(String)"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 50051401,
+              "duration": 48380228,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"18021995\"",
             "match": {
               "arguments": [
@@ -1604,83 +1609,71 @@
                   "offset": 8
                 }
               ],
-              "location": "CadastroDeContas.aSenha(String)"
+              "location": "GerenciamentoDeContas.aSenha(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 1645465166,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "seleciono entrar",
-            "match": {
-              "location": "CadastroDeContas.selecionoEntrar()"
-            },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 7194087,
+              "duration": 564978558,
               "status": "passed"
             },
             "line": 14,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5229389,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
-              "location": "CadastroDeContas.visualizoAPáginaInicial()"
+              "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
             },
             "keyword": "Então "
           },
           {
             "result": {
-              "duration": 54675267,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "seleciono Contas",
-            "match": {
-              "location": "CadastroDeContas.selecionoContas()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 284990054,
+              "duration": 51728733,
               "status": "passed"
             },
             "line": 16,
-            "name": "seleciono Adicionar",
+            "name": "seleciono Contas",
             "match": {
-              "location": "CadastroDeContas.selecionoAdicionar()"
+              "location": "GerenciamentoDeContas.selecionoContas()"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           }
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:26.516Z",
-        "line": 26,
+        "start_timestamp": "2019-04-17T18:57:04.516Z",
+        "line": 28,
         "name": "Validar cadastro da conta \"\" com a mensagem esperada \"Informe o nome da conta\"",
         "description": "",
         "id": "cadastro-de-contas;validar-cadastro-da-conta-\"\u003cconta\u003e\"-com-a-mensagem-esperada-\"\u003cmensagem\u003e\";;3",
         "after": [
           {
             "result": {
-              "duration": 303849516,
+              "duration": 284073901,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.screenshot(Scenario)"
+              "location": "GerenciamentoDeContas.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 609333259,
+              "duration": 595747316,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.fecharBrouwser()"
+              "location": "GerenciamentoDeContas.fecharBrouwser()"
             }
           }
         ],
@@ -1689,10 +1682,22 @@
         "steps": [
           {
             "result": {
-              "duration": 39850227,
+              "duration": 283671930,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 34693707,
+              "status": "passed"
+            },
+            "line": 21,
             "name": "informo a conta \"\"",
             "match": {
               "arguments": [
@@ -1701,28 +1706,28 @@
                   "offset": 16
                 }
               ],
-              "location": "CadastroDeContas.informoAConta(String)"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 279188326,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "seleciono Salvar",
-            "match": {
-              "location": "CadastroDeContas.selecionoSalvar()"
+              "location": "GerenciamentoDeContas.informoAConta(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 5904701,
+              "duration": 294886413,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5039864,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "recebo a mensagem \"Informe o nome da conta\"",
             "match": {
               "arguments": [
@@ -1731,14 +1736,19 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.receboAMensagem(String)"
+              "location": "GerenciamentoDeContas.receboAMensagem(String)"
             },
             "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcional"
           }
         ]
       },
       {
-        "line": 9,
+        "line": 10,
         "name": "",
         "description": "",
         "type": "background",
@@ -1746,22 +1756,22 @@
         "steps": [
           {
             "result": {
-              "duration": 3872816654,
+              "duration": 3401371492,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
-              "location": "CadastroDeContas.queEstouAcessandoAAplicação()"
+              "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 110216740,
+              "duration": 103656569,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"adrianochaves93@gmail.com\"",
             "match": {
               "arguments": [
@@ -1770,16 +1780,16 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.informoOUsuário(String)"
+              "location": "GerenciamentoDeContas.informoOUsuário(String)"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 51030501,
+              "duration": 49727087,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"18021995\"",
             "match": {
               "arguments": [
@@ -1788,83 +1798,71 @@
                   "offset": 8
                 }
               ],
-              "location": "CadastroDeContas.aSenha(String)"
+              "location": "GerenciamentoDeContas.aSenha(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 1165077085,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "seleciono entrar",
-            "match": {
-              "location": "CadastroDeContas.selecionoEntrar()"
-            },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 7053483,
+              "duration": 627666908,
               "status": "passed"
             },
             "line": 14,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8159502,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
-              "location": "CadastroDeContas.visualizoAPáginaInicial()"
+              "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
             },
             "keyword": "Então "
           },
           {
             "result": {
-              "duration": 48798961,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "seleciono Contas",
-            "match": {
-              "location": "CadastroDeContas.selecionoContas()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 292647006,
+              "duration": 49327852,
               "status": "passed"
             },
             "line": 16,
-            "name": "seleciono Adicionar",
+            "name": "seleciono Contas",
             "match": {
-              "location": "CadastroDeContas.selecionoAdicionar()"
+              "location": "GerenciamentoDeContas.selecionoContas()"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           }
         ]
       },
       {
-        "start_timestamp": "2019-04-17T14:03:33.779Z",
-        "line": 27,
+        "start_timestamp": "2019-04-17T18:57:10.226Z",
+        "line": 29,
         "name": "Validar cadastro da conta \"Conta mesmo nome\" com a mensagem esperada \"Já existe uma conta com esse nome\"",
         "description": "",
         "id": "cadastro-de-contas;validar-cadastro-da-conta-\"\u003cconta\u003e\"-com-a-mensagem-esperada-\"\u003cmensagem\u003e\";;4",
         "after": [
           {
             "result": {
-              "duration": 324538545,
+              "duration": 327412212,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.screenshot(Scenario)"
+              "location": "GerenciamentoDeContas.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 593242778,
+              "duration": 589588433,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeContas.fecharBrouwser()"
+              "location": "GerenciamentoDeContas.fecharBrouwser()"
             }
           }
         ],
@@ -1873,10 +1871,22 @@
         "steps": [
           {
             "result": {
-              "duration": 68599207,
+              "duration": 285964706,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 76064924,
+              "status": "passed"
+            },
+            "line": 21,
             "name": "informo a conta \"Conta mesmo nome\"",
             "match": {
               "arguments": [
@@ -1885,28 +1895,28 @@
                   "offset": 16
                 }
               ],
-              "location": "CadastroDeContas.informoAConta(String)"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 461037702,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "seleciono Salvar",
-            "match": {
-              "location": "CadastroDeContas.selecionoSalvar()"
+              "location": "GerenciamentoDeContas.informoAConta(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 6303251,
+              "duration": 302850232,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4215395,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "recebo a mensagem \"Já existe uma conta com esse nome\"",
             "match": {
               "arguments": [
@@ -1915,9 +1925,416 @@
                   "offset": 18
                 }
               ],
-              "location": "CadastroDeContas.receboAMensagem(String)"
+              "location": "GerenciamentoDeContas.receboAMensagem(String)"
             },
             "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3393247911,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 115113946,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o usuário \"adrianochaves93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adrianochaves93@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "GerenciamentoDeContas.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 59915261,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a senha \"18021995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"18021995\"",
+                  "offset": 8
+                }
+              ],
+              "location": "GerenciamentoDeContas.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 665090598,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6372698,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 46673474,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoContas()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-17T18:57:16.055Z",
+        "line": 40,
+        "name": "Validar edicao da conta \"\u003cconta\u003e\" com a mensagem esperada \"Conta alterada com sucesso\"",
+        "description": "",
+        "id": "cadastro-de-contas;validar-edicao-da-conta-\"\u003cconta\u003e\"-com-a-mensagem-esperada-\"\u003cmensagem\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 291380883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GerenciamentoDeContas.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 639656939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GerenciamentoDeContas.fecharBrouwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 349181262,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono Listar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoListar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 323102054,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico em editar",
+            "match": {
+              "location": "GerenciamentoDeContas.clicoEmEditar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 67495241,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "informo o novo nome \"Conta alterada\" da conta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta alterada\"",
+                  "offset": 20
+                }
+              ],
+              "location": "GerenciamentoDeContas.informoONovoNomeDaConta(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 340678288,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clico em salvar",
+            "match": {
+              "location": "GerenciamentoDeContas.clicoEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5219468,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "recebo a mensagem \"Conta alterada com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta alterada com sucesso\"",
+                  "offset": 18
+                }
+              ],
+              "location": "GerenciamentoDeContas.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3480025110,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "GerenciamentoDeContas.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 107848017,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o usuário \"adrianochaves93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adrianochaves93@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "GerenciamentoDeContas.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 47931045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a senha \"18021995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"18021995\"",
+                  "offset": 8
+                }
+              ],
+              "location": "GerenciamentoDeContas.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 591658841,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8294290,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "GerenciamentoDeContas.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 46871895,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoContas()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-17T18:57:22.364Z",
+        "line": 41,
+        "name": "Validar edicao da conta \"\u003cconta\u003e\" com a mensagem esperada \"Informe o nome da conta\"",
+        "description": "",
+        "id": "cadastro-de-contas;validar-edicao-da-conta-\"\u003cconta\u003e\"-com-a-mensagem-esperada-\"\u003cmensagem\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 323457499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GerenciamentoDeContas.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 638981285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GerenciamentoDeContas.fecharBrouwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 340698130,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono Listar",
+            "match": {
+              "location": "GerenciamentoDeContas.selecionoListar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 307576730,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico em editar",
+            "match": {
+              "location": "GerenciamentoDeContas.clicoEmEditar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 45033432,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "informo o novo nome \"\" da conta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "GerenciamentoDeContas.informoONovoNomeDaConta(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 342368277,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clico em salvar",
+            "match": {
+              "location": "GerenciamentoDeContas.clicoEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6422987,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "recebo a mensagem \"Informe o nome da conta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Informe o nome da conta\"",
+                  "offset": 18
+                }
+              ],
+              "location": "GerenciamentoDeContas.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcional"
           }
         ]
       }
@@ -1926,7 +2343,16 @@
     "description": "  Como um usuário \n  Gostaria de cadastrar contas\n  Para que eu possa distribuir meu dinheiro de uma forma mais organizada",
     "id": "cadastro-de-contas",
     "keyword": "Funcionalidade",
-    "uri": "file:src/test/resources/features/cadastro_de_contas.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/gerenciamento_de_contas.feature",
+    "tags": [
+      {
+        "name": "@funcional",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
