@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-			features = "src/test/resources/features",//para executar todas as features, é so apagar o nome da feature
+			features = "src/test/resources/features/movimentacao_conta.feature",//para executar todas as features, é so apagar o nome da feature
 			glue = "br.com.compasso.steps",
 			tags = "~@ignore, @unitario", //tag que sera executada @~ignore nao executa a tag negada somente
 			monochrome = true,

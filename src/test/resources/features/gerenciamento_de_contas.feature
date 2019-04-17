@@ -1,6 +1,6 @@
 #language: pt
 @funcional
-Funcionalidade: Cadastro de contas
+Funcionalidade: Cadastro e edição de contas
   
   Como um usuário 
   Gostaria de cadastrar contas
@@ -14,7 +14,6 @@ Contexto:
     E seleciono entrar
     Então visualizo a página inicial
     Quando seleciono Contas
-    #E seleciono Adicionar
     
 Esquema do Cenario: Validar cadastro da conta "<conta>" com a mensagem esperada "<mensagem>"
 	Quando seleciono Adicionar
@@ -39,4 +38,8 @@ Exemplos:
 	|			nome			|					mensagem				 |
 	|Conta alterada	|Conta alterada com sucesso|
 	|               |Informe o nome da conta   |
+	
+Cenario:
+		Quando seleciono Listar
+	
 	
