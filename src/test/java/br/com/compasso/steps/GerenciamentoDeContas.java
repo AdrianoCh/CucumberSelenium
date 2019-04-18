@@ -113,7 +113,6 @@ public class GerenciamentoDeContas {
 			System.out.println("---------> NOME DO CENARIO E: <----------------" +cenario.getName().replaceAll("\"", ""));
 			FileUtils.copyFile(file, new File("target/screenshot/"+cenario.getName().replaceAll("[^\\w]", "")+".jpg"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		driver.quit();
