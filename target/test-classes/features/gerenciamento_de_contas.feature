@@ -1,5 +1,5 @@
 #language: pt
-@funcional
+@funcional @gerenciamento_de_contas
 Funcionalidade: Cadastro e edição de contas
   
   Como um usuário 

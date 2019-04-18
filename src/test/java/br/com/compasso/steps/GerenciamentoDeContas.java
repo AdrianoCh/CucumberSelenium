@@ -22,7 +22,7 @@ public class GerenciamentoDeContas {
 	
 	//private WebDriver driver;
 	WebDriver driver = new ChromeDriver();
-		
+			
 	@Dado("que estou acessando a aplicação")
 	public void queEstouAcessandoAAplicação() {
 	    driver.get("https://srbarriga.herokuapp.com");
@@ -94,20 +94,28 @@ public class GerenciamentoDeContas {
 		driver.findElement(By.cssSelector("body > div.col-lg-10 > form > div.btn-group > button")).click();
 	}
 	
-	@After(order = 1, value= {"~@unitario"})//o value especifica em qual tag o after NÃO vai rodar
-	public void screenshot(Scenario cenario) {
+//	@After(order = 1, value= {"~@unitario"})//o value especifica em qual tag o after NÃO vai rodar
+//	public void screenshot(Scenario cenario) {
+//		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//		try {
+//			System.out.println("---------> NOME DO CENARIO E: <----------------" +cenario.getName().replaceAll("\"", ""));
+//			FileUtils.copyFile(file, new File("target/screenshot/"+cenario.getName().replaceAll("[^\\w]", "")+"nome.jpg"));
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
+	
+	@After(order = 0, value= {"@gerenciamento_de_contas"})
+	public void fecharBrouwser(Scenario cenario) {
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			System.out.println("---------> NOME DO CENARIO E: <----------------" +cenario.getName().replaceAll("\"", ""));
-			FileUtils.copyFile(file, new File("target/screenshot/"+cenario.getName().replaceAll("\"", "")+"nome.jpg"));
+			FileUtils.copyFile(file, new File("target/screenshot/"+cenario.getName().replaceAll("[^\\w]", "")+".jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
-	
-	@After(order = 0, value= {"~@unitario"})
-	public void fecharBrouwser() {
 		driver.quit();
 	}
 }

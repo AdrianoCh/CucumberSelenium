@@ -1,11 +1,18 @@
 package br.com.compasso.steps;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
@@ -69,10 +76,22 @@ public class MovimentacaoConta {
 	
 	@Entao("valido a mensagem {string}")
 	public void validoAMensagem(String string) {
-		driver.getPageSource().contains(string);
+		driver.findElement(By.cssSelector("body > div.col-lg-10 > form > div.btn-group > button")).click();
+		Boolean contem = driver.getPageSource().contains(string);
+		Assert.assertTrue(contem);
 	}
-	@After
-	public void fecharBrowser() {
+	
+	@After(order = 0, value= {"@movimentacao_de_contas"})
+	public void fecharBrouwser(Scenario cenario) {
+		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		try {
+			System.out.println("---------> NOME DO CENARIO E: <----------------" +cenario.getName().replaceAll("\"", ""));
+			FileUtils.copyFile(file, new File("target/screenshot/"+cenario.getName().replaceAll("[^\\w]", "")+".jpg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		driver.quit();
 	}
+
 }
